@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="user_connect.js"></script>
+  <title>Home Page</title>
+</head>
+
+<body style="text-align:center;">
+
+  <h1 align="center " style="color:rgb(0,0,0);"> Welcome!</h1>
+  <!-- container -->
+  <div class="container">  
+
+    <!-- Creating a SVG image -->
+    <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+
+      <path d="M0, 100 C150, 400 300, 
+            -150 500, 100 L500, 00 L0, 0 Z" style="stroke:none; fill:#11413d;">
+      </path>
+    </svg>
+
+    <div id="leftdiv">
+      <h2 style="color:rgb(0, 0, 0);">Log in</h2>
+      <input type="text" placeholder="Username" id="username"><br>
+      <input type="password" placeholder="Password" id="password"><br>
+      <div id="log-message" style="color: rgb(0, 0, 0); font-size: medium;"></div>
+
+      <button type="submit" id="log-btn">Log in</button>
+    </div>
+
+
+    <div id="rightdiv">
+      <h2 style="color:rgb(0,0,0);">Sign up</h2>
+      <input type="text" placeholder="Username" id="username1"><br>
+      <input type="text" placeholder="Email" id="email"><br>
+      <input type="password" placeholder="Password" id="password1"><br>
+      <input type="password" placeholder="Confirm Password" id="cpassword"><br>
+      <div id="reg-message" style="color: rgb(0,0,0); font-size: medium;"></div>
+
+      <button type="submit" id="reg-btn">Sign up</button>
+    </div>
+
+  </div>
+</body>
+</html>
